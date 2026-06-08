@@ -1,9 +1,9 @@
-import DotGrid from './components/DotGrid'
+import Boxes from './components/Boxes'
 
 export default function Home() {
   return (
     <>
-      <DotGrid />
+      <Boxes />
     </>
   )
 }

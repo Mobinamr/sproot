@@ -1,15 +1,50 @@
-/* Dot Grid Component Styles */
+/* Boxes Component Styles */
 
-.dot-grid-container {
+.boxes-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  height: 100%;
+  width: 100%;
   position: absolute;
-  inset: 0;
-  pointer-events: none;
-  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 20px;
   border-radius: 20px;
 }
 
-.dot-grid {
-  display: block;
-  width: 100%;
-  height: 100%;
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.column-left {
+  grid-column: 1;
+}
+
+.column-right {
+  grid-column: 2;
+}
+
+.box {
+  background-color: rgba(240, 240, 240, 0.7);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(224, 224, 224, 0.5);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #666;
+  flex: 1;
+  min-height: 100px;
+}
+
+.column-left .box {
+  flex: 1;
+}
+
+.column-right .box {
+  flex: 1;
 }
