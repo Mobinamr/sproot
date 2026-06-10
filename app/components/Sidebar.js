@@ -5,10 +5,6 @@ import { FiHome, FiBook, FiCalendar, FiBarChart2, FiSettings, FiPlus, FiUser } f
 export default function Sidebar() {
   return (
     <aside className="sidebar">
-      <div className="sidebar-header">
-        <h2>StudyWeb</h2>
-      </div>
-
       <nav className="sidebar-nav">
         <button className="sidebar-button">
           <FiHome className="sidebar-icon" />
