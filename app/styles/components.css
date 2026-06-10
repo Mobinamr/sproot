@@ -48,3 +48,24 @@
 .column-right .box {
   flex: 1;
 }
+
+/* Point Grid Styles */
+.point-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.point-row {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.point {
+  width: 8px;
+  height: 8px;
+  background-color: #d0d0d0;
+  border-radius: 50%;
+}
