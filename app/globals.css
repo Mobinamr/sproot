@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 @import './styles/components.css';
 @import './styles/responsive.css';
 
@@ -33,6 +34,7 @@ body {
   flex-direction: column;
   transition: width 0.3s ease, padding 0.3s ease;
   z-index: 100;
+  font-family: 'Outfit', sans-serif;
 }
 
 .sidebar.collapsed {
