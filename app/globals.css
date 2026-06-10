@@ -36,7 +36,7 @@ body {
 }
 
 .sidebar.collapsed {
-  width: 60px;
+  width: 70px;
   padding: 20px 10px;
 }
 
@@ -107,6 +107,7 @@ body {
 .sidebar-button {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   gap: 12px;
   width: 100%;
   padding: 12px 16px;
@@ -117,14 +118,14 @@ body {
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: background 0.2s ease, transform 0.2s ease;
   overflow: hidden;
   white-space: nowrap;
+  position: relative;
 }
 
 .sidebar.collapsed .sidebar-button {
-  padding: 12px;
-  justify-content: center;
+  padding: 12px 16px;
 }
 
 .sidebar-button:hover {
@@ -146,12 +147,15 @@ body {
 }
 
 .sidebar-text {
-  transition: opacity 0.3s ease, width 0.3s ease;
+  transition: opacity 0.3s ease, max-width 0.3s ease, margin 0.3s ease;
+  max-width: 200px;
+  overflow: hidden;
 }
 
 .sidebar.collapsed .sidebar-text {
   opacity: 0;
-  width: 0;
+  max-width: 0;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -168,6 +172,6 @@ body {
 }
 
 .main-content.expanded {
-  margin-left: 60px;
-  max-width: calc(100vw - 60px);
+  margin-left: 70px;
+  max-width: calc(100vw - 70px);
 }
