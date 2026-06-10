@@ -1,8 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { FiHome, FiBook, FiCalendar, FiBarChart2, FiSettings, FiPlus, FiUser } from 'react-icons/fi'
-import { TbGridDots } from 'react-icons/tb'
+import { FiHome, FiBook, FiCalendar, FiBarChart2, FiSettings, FiPlus, FiUser, FiSidebar } from 'react-icons/fi'
 
 export default function Sidebar() {
   const [isCollapsed, setIsCollapsed] = useState(false)
@@ -25,7 +24,7 @@ export default function Sidebar() {
         onClick={() => setIsCollapsed(!isCollapsed)}
         aria-label="Toggle sidebar"
       >
-        <TbGridDots />
+        <FiSidebar />
       </button>
 
       <nav className="sidebar-nav">

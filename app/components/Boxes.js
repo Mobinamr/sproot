@@ -2,11 +2,11 @@ export default function Boxes() {
   return (
     <div className="boxes-container">
       <div className="column column-left">
-        <div className="box">
+        <div className="box grid-box">
           <div className="point-grid">
-            {[...Array(10)].map((_, row) => (
+            {[...Array(12)].map((_, row) => (
               <div key={row} className="point-row">
-                {[...Array(10)].map((_, col) => (
+                {[...Array(12)].map((_, col) => (
                   <div key={col} className="point"></div>
                 ))}
               </div>
