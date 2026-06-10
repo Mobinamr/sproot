@@ -13,34 +13,34 @@ export default function Sidebar() {
 
         <button className="sidebar-button">
           <FiBook className="sidebar-icon" />
-          <span>Mijn Vakken</span>
+          <span>My Subjects</span>
         </button>
 
         <button className="sidebar-button">
           <FiCalendar className="sidebar-icon" />
-          <span>Planning</span>
+          <span>Schedule</span>
         </button>
 
         <button className="sidebar-button">
           <FiBarChart2 className="sidebar-icon" />
-          <span>Voortgang</span>
+          <span>Progress</span>
         </button>
 
         <button className="sidebar-button">
           <FiPlus className="sidebar-icon" />
-          <span>Nieuw Vak</span>
+          <span>New Subject</span>
         </button>
       </nav>
 
       <div className="sidebar-footer">
         <button className="sidebar-button">
           <FiUser className="sidebar-icon" />
-          <span>Profiel</span>
+          <span>Profile</span>
         </button>
 
         <button className="sidebar-button">
           <FiSettings className="sidebar-icon" />
-          <span>Instellingen</span>
+          <span>Settings</span>
         </button>
       </div>
     </aside>
