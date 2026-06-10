@@ -148,6 +148,7 @@
   transition: all 0.2s ease;
   cursor: pointer;
   position: relative;
+  padding: 4px;
 }
 
 .calendar-day:not(.empty):hover {
@@ -174,7 +175,7 @@
   height: 4px;
   border-radius: 50%;
   position: absolute;
-  bottom: 2px;
+  bottom: 5px;
 }
 
 .red-dot {
