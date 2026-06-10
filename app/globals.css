@@ -9,7 +9,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #d0d0d0;
+  background-color: #f0f0f0;
 }
 
 .app-container {
@@ -22,7 +22,7 @@ body {
 
 .sidebar {
   width: 250px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.15) 100%);
   padding: 20px;
   position: fixed;
   height: 100vh;
